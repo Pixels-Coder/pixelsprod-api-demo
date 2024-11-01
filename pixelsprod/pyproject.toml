@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pixelsprod"
+version = "0.1.0"
+description = ""
+authors = ["Michael Delaporte <michael@pixelscoder.com>"]
+readme = "README.md"
+packages = [{include = "pixelsprod"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+click = "^8.1.7"
+shotgun-api3 = {git = "https://github.com/shotgunsoftware/python-api.git"}
+pydantic = "^2.7.2"
+openapi = "^1.1.0"
+openai = "^1.30.4"
+requests = "^2.32.2"
+workalendar = "^17.0.0"
+google-api-python-client = "^2.131.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth = "^2.29.0"
+oauthlib = "^3.2.2"
+google-auth-oauthlib = "^1.2.0"
+python-dotenv = "^1.0.1"
+pytimeparse = "^1.1.8"
+supabase = "^2.9.1"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pixelsprod = "pixelsprod.__main__:main"

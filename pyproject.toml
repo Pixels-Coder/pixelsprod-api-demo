@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pixelsprod-api-demo"
+version = "0.1.0"
+description = ""
+authors = ["Michael Delaporte <michael@pixelscoder.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pixelsprod = {path = "pixelsprod", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

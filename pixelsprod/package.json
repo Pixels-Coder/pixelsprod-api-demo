@@ -1,0 +1,8 @@
+{
+  "name": "pixelsprod",
+  "private": true,
+  "scripts": {
+    "serve": "dotenv -e ../../.env -- poetry run pixelsprod serve --port 63004",
+    "postinstall": "poetry install"
+  }
+}

@@ -1,0 +1,11 @@
+name: Character
+type: EntityTemplate
+description: Character Entity Template
+tasks:
+ - name: Modeling
+   description: Modeling the character
+   duration: 10
+   step:
+    ('a0000001-b001-d001-0000-000000000000', 'a0000001-0000-0000-0000-000000000000', 'Modeling', 'Modeling the character', 'a0000001-b001-c001-0000-000000000000', 10),
+  ('a0000001-b001-d002-0000-000000000000', 'a0000001-0000-0000-0000-000000000000', 'Shading', 'Shading the character', 'a0000001-b001-c002-0000-000000000000', 5),
+  ('a0000001-b001-d003-0000-000000000000', 'a0000001-0000-0000-0000-000000000000', 'Rigging', 'Rigging the character', 'a0000001-b001-c003-0000-000000000000', 15),
